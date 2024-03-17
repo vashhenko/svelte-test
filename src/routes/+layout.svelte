@@ -1,6 +1,6 @@
 <nav>
     <div class="nav-container">
-        <a href="/" class="nav-logo" title="Back to HomePage">Вячеслав Чернышов</a>
+        <a href="/" class="nav-logo" title="Back to HomePage">Главная страница</a>
         <div class="nav-links">
             {#each nav as link}
                 {#if link.isShow}
@@ -18,24 +18,24 @@
 <script>
     export let nav = [
         {
-            title: 'Обо мне',
+            title: 'Функции',
             href: '/about',
             isShow: true
         },
         {
-            title: 'Блог',
+            title: 'Статьи',
             href: '/blog',
             isShow: true
         },
         {
-            title: 'Портфолио',
+            title: 'Проекты',
             href: '/project',
             isShow: true
         },
         {
             title: 'Контакты',
             href: '/contact',
-            isShow: true
+            isShow: false
         }
     ]
 </script>

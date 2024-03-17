@@ -2,10 +2,10 @@
     import {routes} from "./routes"
 </script>
 <svelte:head>
-    <title>Блог</title>
+    <title>Статьи</title>
 </svelte:head>
 <div class="container">
-    <h1>Мои статьи</h1>
+    <h1>Статьи</h1>
     <div class="blogposts">
         <!-- svelte-ignore missing-declaration -->
         {#each routes as page }

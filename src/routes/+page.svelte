@@ -1,5 +1,5 @@
 <svelte:head>
-    <title>Вячеслав Чернышов</title>
+    <title>DevOps</title>
 </svelte:head>
 
 <div class="container">
@@ -8,17 +8,16 @@
             <div class="container info-container">
                 <div class="info-text">
                     <h1>
-                        <p class="animate-text-1">Lorem ipsum dolor sit,</p>
-                        <p class="text-2">Lorem ipsum dolor sit amet.</p>
+                        <p class="animate-text-1">DevOps и жизненный цикл приложений</p>
                     </h1>
                 </div>
                 <h2 class="subtitle">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere nam consectetur quisquam amet non odio aliquid vitae inventore harum aperiam. 
-                Doloremque fugiat cum in esse est nulla itaque laboriosam laborum!
+                    DevOps влияет на жизненный цикл приложения на протяжении всего этапа планирования, разработки, доставки и операций . Каждый этап зависит от других этапов, а этапы не зависят от ролей. 
+                Язык и региональные параметры DevOps включают все роли на каждом этапе в некоторой степени.
                 </h2>
                 <!-- svelte-ignore a11y-no-noninteractive-tabindex -->
                 <div style="color:black" class="scroll-button animate-scroll" tabindex="0">
-                    <a href="/about">Click Here</a>
+                    <a href="/about">Далее</a>
                     <div class="arrow">&#8594</div>
                 </div>
             </div>

@@ -1,23 +1,12 @@
 export const routes = [
-
-    {
-    
-    id: "1",
-    
-    title: 'My First Blog Post',
-    
-    body: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis dignissimos dolorem ea ex maiores minima minus nisi perspiciatis sapiente voluptate',
-    
-    },
-
-    {
-
-        "id": "2",
-        
-        "title": "My Second Blog Post",
-        
-        "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis dignissimos dolorem ea ex maiores minima minus nisi perspiciatis sapiente voluptate"
-        
+        {
+         id: "1",
+         title: 'Плюсы использования DevOps',
+         body: 'Быстрый выпуск новых приложений и функций. Параллельная работа и контейнеры позволяют избежать ситуации, когда разработчики месяцами трудятся над',
+        },
+        {
+         id: "2",
+         title: "Критика и недостатки DevOps",
+         body: "Сейчас DevOps становится новым стандартом, но этот подход не лишён некоторых недостатков."
         }
-    
-    ];
+        ];
